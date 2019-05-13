@@ -4,7 +4,7 @@ import argparse
 import codecs
 def reverse_geocoding(lat,lng):
 	# Getting data
-	key = "AIzaSyBLxGkK6voYBWgGvH5MA8JPQrz8Z5yscrc"
+	key = "<Minha chave>"
 	url = "https://maps.googleapis.com/maps/api/geocode/json?latlng="+str(lat)+","+str(lng)+"&key="+key
 	try:
 		response = urllib.request.urlopen(url)
